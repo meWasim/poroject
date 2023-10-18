@@ -26,7 +26,7 @@
     <ul class="navbar-nav ms-auto">
       <li class="nav-item me-3 me-lg-0">
         <a class="nav-link" href="#!">
-          <i class="bi bi-shopping-cart"></i>
+          <i class="bi bi-linkedin"></i>
         </a>
       </li>
       <li class="nav-item me-3 me-lg-0">
