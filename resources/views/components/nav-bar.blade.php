@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0">
+{{-- <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0">
   <div class="container">
     <a class="navbar-brand" href="#!"><span style="color: #5e9693;">DANCE</span><span style="color: #ffafcc;">CLUB</span></a>
     <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
@@ -46,4 +46,4 @@
       </li>
     </ul>
   </div>
-</nav>
+</nav> --}}
