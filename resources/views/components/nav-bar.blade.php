@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0">
   <div class="container">
-    <a class="navbar-brand" href="#!"><span style="color: #5e9693;">DANCE</span><span style="color: #219ebc;">CLUB</span></a>
+    <a class="navbar-brand" href="#!"><span style="color: #5e9693;">DANCE</span><span style="color: #ffafcc;">CLUB</span></a>
     <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
       data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
       aria-label="Toggle navigation">
@@ -37,6 +37,11 @@
       <li class="nav-item me-3 me-lg-0">
         <a class="nav-link" href="#!">
           <i class="bi bi-instagram"></i>
+        </a>
+      </li>
+      <li class="nav-item me-3 me-lg-0">
+        <a class="nav-link" href="#!">
+          <i  class="bi bi-facebook"></i>
         </a>
       </li>
     </ul>
