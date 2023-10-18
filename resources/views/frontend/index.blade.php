@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -27,4 +27,9 @@
     @endcomponent
 </body>
 
-</html>
+</html> --}}
+
+@extends('layouts.admin')
+@section('title')
+{{ __('Dance Club') }}
+@endsection
