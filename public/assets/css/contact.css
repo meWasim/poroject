@@ -1,7 +1,7 @@
-.contact{
+.contact {
     background-image: url(../img/home.jpg);
     background-attachment: fixed; 
     background-size: cover;
     height: 100vh;
-    
+    padding-top: 150px; /* Adjust the value to the desired top margin */
 }
