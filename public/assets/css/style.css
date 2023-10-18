@@ -2,10 +2,3 @@
     
     font-family: 'Roboto', sans-serif;
 }
-body{
-    
-    background-image: url(../img/main.jpg);
-    background-attachment: fixed; /* Keeps the background fixed */
-    background-size: cover;
-    
-}
