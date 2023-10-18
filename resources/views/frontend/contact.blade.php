@@ -1,11 +1,11 @@
 @extends('layouts.admin')
 @section('title')
-{{ __('Dance Club') }}
+{{ __('contact') }}
 @endsection
 
 @section('content')
 
-<section class="home">
+<section class="contact">
     @component('components.nav-bar')
     @endcomponent
 </section>
