@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +20,4 @@ Route::get('/', function () {
 Route::get('/contact', function () {
     return view('frontend.contact');
 });
+Route::post('/send-message',[ContactController::class , 'storeMessage'])->name('sendMessage');
