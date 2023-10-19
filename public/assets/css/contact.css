@@ -1,7 +1,69 @@
-.contact{
-    background-image: url(../img/home.jpg);
-    background-attachment: fixed; 
-    background-size: cover;
-    height: 100vh;
+.contact {
+    background-color: #8EC5FC;
     
+    height: 120vh;
+    padding-top: 150px;
+    padding-left: 5%; 
+    padding-right: 5%;/* Adjust the value to the desired top margin */
+    width: 100%;
+    
+}
+.contact-container{
+    height: 100vh;
+    width: 100%;
+    gap: 10%;
+    
+}
+.contact-links{
+    width: 50%;
+    
+}
+
+
+
+
+.contact-form{
+    width: 50%;
+    height: 80vh;
+    border-radius: 20px;
+    padding: 3%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.contact-form form{
+    width: 100%;
+    height: 100%;
+}
+.contact-form h1{
+    color: white;
+}
+.form-group input{
+    padding: 12px 18px;
+    background-color: #8EC5FC;
+    border: none;
+    background-color: none;
+   
+}
+.form-group textarea{
+    background-color: #8EC5FC;
+    border: none;
+    padding: 12px 18px;
+}
+
+.send-btn button{
+    padding:15px 15px;
+    border-radius: 25px;
+}
+/* Custom CSS for smaller screens */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+    }
+    .contact-links,
+    .contact-form {
+        width: 100%;
+    }
+}
+.alert-danger{
+    background-color: #8EC5FC;
+    color: red;
 }
