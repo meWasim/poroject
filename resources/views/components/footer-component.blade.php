@@ -45,11 +45,11 @@
       </div>
       <!--Grid column-->
 
-      
+
 
       <!--Grid column-->
       <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-        <h5 class="text-uppercase mb-4">Opening hours</h5>
+        <h4 class="text-uppercase text-center mb-4">Opening hours</h4>
 
         <table class="table text-center text-black">
           <tbody class="fw-normal">
@@ -76,8 +76,10 @@
 
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2020 Copyright:
-    <span class="text-white">Dance club</span>
+    &copy; <script>
+      document.write(new Date().getFullYear())
+    </script> Made <i class="ti-heart text-danger"></i> By <span class="text-danger" title="Bootstrap 4 Themes and Dashboards"> <span style="color: #5e9693;">DANCE</span>
+      <span style="color: #ffafcc;">CLUB</span></span></a>
   </div>
   <!-- Copyright -->
 </footer>

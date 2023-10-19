@@ -16,16 +16,13 @@
             <h2>test@gmail.com</h2>
         </div>
         <div class="contact-form">
+        @if ($message=Session::get('message'))
+    <div class="alert alert-success">
+        {{ $message }}
+    </div>
+   @endif
             <h1>Contact Us</h1>
-            <!-- @if($errors->any())
-            <ul class="alert alert-warning">
-                @foreach($errors->all() as $error)
-                <li>{{$error}}</li>
-                @endforeach
-
-            </ul>
-
-            @endif -->
+            
             <form action="{{ route('sendMessage') }}" method="POST"> <!-- Use route() function -->
                 @csrf
                 <div class="form-group">

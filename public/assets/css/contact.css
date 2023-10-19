@@ -1,5 +1,5 @@
 .contact {
-    background-color: #8EC5FC;
+    background-color: #9fcefc;
     
     height: 120vh;
     padding-top: 150px;
@@ -38,13 +38,20 @@
 }
 .form-group input{
     padding: 12px 18px;
-    background-color: #8EC5FC;
+    background-color: #9fcefc;
     border: none;
-    background-color: none;
+    background-color: transparent;
    
 }
+
+.form-group input:focus{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
 .form-group textarea{
-    background-color: #8EC5FC;
+    background-color: #9fcefc;
     border: none;
     padding: 12px 18px;
 }
@@ -64,6 +71,6 @@
     }
 }
 .alert-danger{
-    background-color: #8EC5FC;
+    background-color: #9fcefc;
     color: red;
 }
