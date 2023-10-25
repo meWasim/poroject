@@ -21,3 +21,7 @@ Route::get('/contact', function () {
     return view('frontend.contact');
 });
 Route::post('/send-message',[ContactController::class , 'storeMessage'])->name('sendMessage');
+
+Route::get('/test', function () {
+    return view('frontend.test');
+});

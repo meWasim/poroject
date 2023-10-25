@@ -1,5 +1,5 @@
 .contact {
-    background-color: #8EC5FC;
+    background-color: #9fcefc;
     
     height: 120vh;
     padding-top: 150px;
@@ -27,7 +27,7 @@
     height: 80vh;
     border-radius: 20px;
     padding: 3%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
 }
 .contact-form form{
     width: 100%;
@@ -38,15 +38,31 @@
 }
 .form-group input{
     padding: 12px 18px;
-    background-color: #8EC5FC;
+    background-color: #9fcefc;
     border: none;
-    background-color: none;
+    background-color: transparent;
+    border-bottom: 2px solid gray;
+    border-radius: 0px ;
    
 }
+
+.form-group input:focus{
+    background-color: transparent;
+    border: none;
+    
+}
+
 .form-group textarea{
-    background-color: #8EC5FC;
+    background-color: #9fcefc;
     border: none;
     padding: 12px 18px;
+    border-bottom: 2px solid gray;
+    border-radius: 0px ;
+}
+.form-group textarea:focus{
+    background-color: transparent;
+    border: none;
+    
 }
 
 .send-btn button{
@@ -64,6 +80,6 @@
     }
 }
 .alert-danger{
-    background-color: #8EC5FC;
+    background-color: transparent;
     color: red;
 }
