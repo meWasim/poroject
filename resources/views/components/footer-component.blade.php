@@ -17,28 +17,14 @@
 
         <div class="mt-4 ">
           <!-- Facebook -->
-          <ul class="navbar-nav footer-social-links">
-            <li class="nav-item me-3 me-lg-0">
-              <a class="nav-link" href="#">
-                <i class="bi bi-linkedin"></i>
-              </a>
-            </li>
-            <li class="nav-item me-3 me-lg-0">
-              <a class="nav-link" href="#">
-                <i class="bi bi-twitter"></i>
-              </a>
-            </li>
-            <li class="nav-item me-3 me-lg-0">
-              <a class="nav-link" href="#">
-                <i class="bi bi-instagram"></i>
-              </a>
-            </li>
-            <li class="nav-item me-3 me-lg-0">
-              <a class="nav-link" href="#">
-                <i class="bi bi-facebook"></i>
-              </a>
-            </li>
-          </ul>
+          <div class="navbar-nav ml-auto media-icon">
+
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+
+          </div>
 
           <!-- Linkedin -->
         </div>
@@ -78,8 +64,7 @@
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
     &copy; <script>
       document.write(new Date().getFullYear())
-    </script> Made <i class="ti-heart text-danger"></i> By <span class="text-danger" title="Bootstrap 4 Themes and Dashboards"> <span style="color: #5e9693;">DANCE</span>
-      <span style="color: #ffafcc;">CLUB</span></span></a>
+    </script> Copy Right Dance Club
   </div>
   <!-- Copyright -->
 </footer>

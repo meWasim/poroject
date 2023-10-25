@@ -1,3 +1,4 @@
+
 .footer-social-links{
    
    
@@ -5,4 +6,28 @@
    flex-direction: row;
    gap: 10%;
 }
+
+.media-icon a{
+   
+   font-size: 1.2em;
+   font-weight: 500;
+   text-decoration: none;
+   margin-left: 30px;
+   transition: 0.3s ease;
+   
+ }
+ .media-icon a:hover{
+  transform: scale(1.5);
+   
+ }
+ .bi-facebook{
+   color: #4867aa;
+ }
+
+ .bi-linkedin{
+color: #0A66C2;
+ }
+ .bi-instagram{
+   color: purple;
+ }
 
