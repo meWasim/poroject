@@ -6,8 +6,12 @@
    flex-direction: row;
    gap: 10%;
 }
-
-.media-icon a{
+.fmedia-icon{
+   display: flex;
+   flex-direction: row;
+  margin-left: -27px;
+}
+.fmedia-icon a{
    
    font-size: 1.2em;
    font-weight: 500;
@@ -16,18 +20,21 @@
    transition: 0.3s ease;
    
  }
- .media-icon a:hover{
+ .fmedia-icon a:hover{
   transform: scale(1.5);
    
  }
- .bi-facebook{
+ .f{
    color: #4867aa;
  }
 
- .bi-linkedin{
+ .l{
 color: #0A66C2;
  }
- .bi-instagram{
+ .i{
    color: purple;
+ }
+ .x{
+   color: black;
  }
 

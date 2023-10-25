@@ -17,12 +17,12 @@
 
         <div class="mt-4 ">
           <!-- Facebook -->
-          <div class="navbar-nav ml-auto media-icon">
+          <div class="fmedia-icon">
 
-            <a href="#"><i class="bi bi-facebook"></i></a>
-            <a href="#"><i class="bi bi-twitter-x"></i></a>
-            <a href="#"><i class="bi bi-linkedin"></i></i></a>
-            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-facebook f"></i></a>
+            <a href="#"><i class="bi bi-twitter-x x"></i></a>
+            <a href="#"><i class="bi bi-linkedin l"></i></i></a>
+            <a href="#"><i class="bi bi-instagram i"></i></a>
 
           </div>
 
