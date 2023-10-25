@@ -1,3 +1,4 @@
+
 .footer-social-links{
    
    
@@ -5,4 +6,35 @@
    flex-direction: row;
    gap: 10%;
 }
+.fmedia-icon{
+   display: flex;
+   flex-direction: row;
+  margin-left: -27px;
+}
+.fmedia-icon a{
+   
+   font-size: 1.2em;
+   font-weight: 500;
+   text-decoration: none;
+   margin-left: 30px;
+   transition: 0.3s ease;
+   
+ }
+ .fmedia-icon a:hover{
+  transform: scale(1.5);
+   
+ }
+ .f{
+   color: #4867aa;
+ }
+
+ .l{
+color: #0A66C2;
+ }
+ .i{
+   color: purple;
+ }
+ .x{
+   color: black;
+ }
 

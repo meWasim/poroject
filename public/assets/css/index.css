@@ -55,3 +55,39 @@ img {
   width: 100%;
   height: 100%;
 }
+
+
+
+.animation-container {
+  position: absolute;
+  top: -100px;
+  left: 30%;
+  transform: translateX(-50%);
+  text-align: center;
+  animation: slide-down 2s ease-in-out forwards;
+  z-index: 2;
+  color: #fff;
+}
+
+@keyframes slide-down {
+  0% {
+      top: -100px;
+      opacity: 0;
+  }
+  100% {
+      top: 300px;
+      opacity: 1;
+  }
+}
+
+/* @keyframes slide-up {
+  0% {
+      top: 200px;
+      opacity: 1;
+  }
+  100% {
+      top: -100px;
+      opacity: 0;
+  }
+} */
+
