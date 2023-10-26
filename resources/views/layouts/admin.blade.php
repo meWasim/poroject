@@ -30,7 +30,9 @@
     <link rel="stylesheet" href="{{asset('assets/css/index.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/contact.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/footer.css')}}">
-
+    <link rel="stylesheet" href="{{asset('assets/css/work.css')}}">
+    <!-- scripts -->
+    <link rel="stylesheet" href="{{asset('assets/js/navbar.js')}}">
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>

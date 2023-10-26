@@ -1,54 +1,54 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Text Animation</title>
     <style>
         body {
             margin: 0;
-            padding: 0;
-            background: #222;
-            color: #fff;
             font-family: Arial, sans-serif;
+            background-color: #222;
+            color: #fff;
             overflow: hidden;
         }
 
         .animation-container {
-            position: absolute;
-            top: -100px;
-            left: 50%;
-            transform: translateX(-50%);
-            text-align: center;
-            animation: slide-down 2s ease-in-out forwards, slide-up 2s ease-in-out 3s forwards;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
         }
 
-        @keyframes slide-down {
-            0% {
-                top: -100px;
-                opacity: 0;
-            }
-            100% {
-                top: 200px;
-                opacity: 1;
-            }
-        }
-
-        @keyframes slide-up {
-            0% {
-                top: 200px;
-                opacity: 1;
-            }
-            100% {
-                top: -100px;
-                opacity: 0;
-            }
+        .text-item {
+            font-size: 24px;
+            opacity: 0;
+            transform: translateY(-100%);
         }
     </style>
 </head>
+
 <body>
     <div class="animation-container">
-        <h1 style="font-size: 80px;">Text Animation</h1>
-        
+        <div class="text-item">Text 1</div>
+        <div class="text-item">Text 2</div>
+        <div class="text-item">Text 3</div>
+        <!-- Add more text items as needed -->
     </div>
+    <script>
+        function animateTextItems(index) {
+            if (index < textItems.length) {
+                setTimeout(() => {
+                    textItems[index].style.transform = 'translateY(0)';
+                    textItems[index].style.opacity = 1;
+                    animateTextItems(index + 1);
+                }, 500); // Adjust the delay (in milliseconds) as needed
+            }
+        }
+
+        animateTextItems(0);
+    </script>
 </body>
+
 </html>
