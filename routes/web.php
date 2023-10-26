@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\WorkController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,6 +23,18 @@ Route::get('/contact', function () {
 });
 Route::post('/send-message',[ContactController::class , 'storeMessage'])->name('sendMessage');
 
+Route::get('/work', function () {
+    return view('frontend.work');
+});
+
+Route::get('/upload', function () {
+    return view('frontend.upload');
+});
+Route::post('/uploadimg',[WorkController::class , 'uploadImage'])->name('uploadImage');
+
+
+
+// test route
 Route::get('/test', function () {
     return view('frontend.test');
 });

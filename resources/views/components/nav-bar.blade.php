@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0">
   <div class="container">
     <a class="navbar-brand brand" href="#!">
-      <span style="color: #5e9693;">DANCE</span>
+      <span style="color: #fff;">DANCE</span>
       <span style="color: #ffafcc;">CLUB</span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,9 +10,9 @@
     <div class="collapse navbar-collapse navigation" id="navbarSupportedContent">
       <div div class="navbar-nav mx-auto navigation-item">
         <a href="">About Me</a>
-        <a href="">Work</a>
+        <a href="{{url('work')}}">Work</a>
         <a href="">Blog</a>
-        <a href="{{url('/contact')}}">Contact</a>
+        <a  href="{{url('contact')}}">Contact</a>
       </div>
       <div class="navbar-nav ml-auto media-icon">
 

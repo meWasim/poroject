@@ -7,7 +7,7 @@
 
 @component('components.nav-bar')
 @endcomponent
-<div class="contact">
+<div class="contact" id="contact">
 
     <div class="contact-container d-flex ">
         <div class="contact-links d-flex flex-column">
@@ -62,4 +62,5 @@
 </div>
 @component('components.footer-component')
 @endcomponent
+<script src="{{asset('assets/js/navbar.js')}}"></script>
 @endsection
