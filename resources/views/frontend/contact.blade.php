@@ -1,6 +1,6 @@
 @extends('layouts.admin')
 @section('title')
-{{ __('contact') }}
+{{ __('Contact') }}
 @endsection
 
 @section('content')
