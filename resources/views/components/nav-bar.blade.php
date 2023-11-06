@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0">
   <div class="container">
-    <a class="navbar-brand brand" href="#!">
+    <a class="navbar-brand brand" href="{{url('/')}}">
       <span style="color: #fff;">DANCE</span>
       <span style="color: #ffafcc;">CLUB</span>
     </a>
